@@ -2,7 +2,9 @@
 <!-- This is for FHIR version R5 Preview 2 (May 2020) --><!-- updated 2021-09-14 post consultation 
      Added flag and language to PI List (and called it the PI List)
      Corrected typo: Exmaple
---><!-- This is an Envelope Bundle example --><Bundle xmlns="http://hl7.org/fhir">
+-->
+<!-- This is an Envelope Bundle example -->
+<Bundle xmlns="http://hl7.org/fhir">
    <type value="transaction"/>
    <!-- timestamp possible future use for a business time (but see also meta.lastUpdated - which is the resource time) -->
    <!--timestamp></timestamp> -->
