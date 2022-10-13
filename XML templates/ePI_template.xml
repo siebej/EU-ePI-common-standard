@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This is a template for a FHIR resource, and needs items (marked with "${}") replacing to make a real instance [template comment] --><!-- The resulting instance is a Bundle of Bundles, each of which is a document (having a Composition, and supporting resources) [template comment] --><!-- 2020-09-14 post consultation
+<!-- This is a template for a FHIR resource, and needs items (marked with "${}") replacing to make a real instance [template comment] -->
+<!-- The resulting instance is a Bundle of Bundles, each of which is a document (having a Composition, and supporting resources) [template comment] -->
+<!-- 2020-09-14 post consultation
      removed "relatesTo" never used
-	 added list entry flag (document type) and an extension for language [template comment] --><!-- This is for FHIR version R5 Preview 2 (May 2020) --><!-- This is an Envelope Bundle example --><Bundle xmlns="http://hl7.org/fhir">
+	 added list entry flag (document type) and an extension for language [template comment] -->
+<!-- This is for FHIR version R5 Preview 2 (May 2020) -->
+<!-- This is an Envelope Bundle example -->
+<Bundle xmlns="http://hl7.org/fhir">
 	<type value="transaction"/> 
     <!-- timestamp possible future use for a business time (but see also meta.lastUpdated - which is the resource time) -->
     <!--timestamp></timestamp> -->
